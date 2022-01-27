@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0970104E27910BFF00C579BC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970104D27910BFF00C579BC /* Tests_iOS.swift */; };
+		0970105027910BFF00C579BC /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970104F27910BFF00C579BC /* Tests_iOSLaunchTests.swift */; };
+		0970105A27910BFF00C579BC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970105927910BFF00C579BC /* Tests_macOS.swift */; };
+		0970105C27910BFF00C579BC /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970105B27910BFF00C579BC /* Tests_macOSLaunchTests.swift */; };
+		0970105D27910BFF00C579BC /* WhatsAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970103527910BFC00C579BC /* WhatsAppSwiftUIApp.swift */; };
+		0970105E27910BFF00C579BC /* WhatsAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970103527910BFC00C579BC /* WhatsAppSwiftUIApp.swift */; };
+		0970105F27910BFF00C579BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970103627910BFC00C579BC /* ContentView.swift */; };
+		0970106027910BFF00C579BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970103627910BFC00C579BC /* ContentView.swift */; };
+		0970106127910BFF00C579BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0970103727910BFE00C579BC /* Assets.xcassets */; };
+		0970106227910BFF00C579BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0970103727910BFE00C579BC /* Assets.xcassets */; };
+		0970107227910E1500C579BC /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107127910E1500C579BC /* StatusView.swift */; };
+		0970107327910E1500C579BC /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107127910E1500C579BC /* StatusView.swift */; };
+		0970107527910E2B00C579BC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107427910E2B00C579BC /* CameraView.swift */; };
+		0970107627910E2B00C579BC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107427910E2B00C579BC /* CameraView.swift */; };
+		0970107827910E3600C579BC /* ChatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107727910E3600C579BC /* ChatsListView.swift */; };
+		0970107927910E3600C579BC /* ChatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107727910E3600C579BC /* ChatsListView.swift */; };
+		0970107B27910E4300C579BC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107A27910E4300C579BC /* SettingsView.swift */; };
+		0970107C27910E4300C579BC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107A27910E4300C579BC /* SettingsView.swift */; };
+		0970107E27910E5100C579BC /* CallListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107D27910E5100C579BC /* CallListView.swift */; };
+		0970107F27910E5100C579BC /* CallListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970107D27910E5100C579BC /* CallListView.swift */; };
+		0970108527910F6400C579BC /* LocalizedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970108427910F6400C579BC /* LocalizedResources.swift */; };
+		0970108627910F6400C579BC /* LocalizedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970108427910F6400C579BC /* LocalizedResources.swift */; };
+		097010892791123100C579BC /* ChatListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010882791123100C579BC /* ChatListRow.swift */; };
+		0970108A2791123100C579BC /* ChatListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010882791123100C579BC /* ChatListRow.swift */; };
+		0970108D279112DC00C579BC /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970108C279112DC00C579BC /* Chat.swift */; };
+		0970108E279112DC00C579BC /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970108C279112DC00C579BC /* Chat.swift */; };
+		097010902791134B00C579BC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970108F2791134B00C579BC /* Message.swift */; };
+		097010912791134B00C579BC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970108F2791134B00C579BC /* Message.swift */; };
+		097010932791139D00C579BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010922791139D00C579BC /* User.swift */; };
+		097010942791139D00C579BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010922791139D00C579BC /* User.swift */; };
+		097010962791174200C579BC /* LastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010952791174200C579BC /* LastMessageView.swift */; };
+		097010972791174200C579BC /* LastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010952791174200C579BC /* LastMessageView.swift */; };
+		0970109927911AA700C579BC /* ProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970109827911AA700C579BC /* ProfileIcon.swift */; };
+		0970109A27911AA700C579BC /* ProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970109827911AA700C579BC /* ProfileIcon.swift */; };
+		0970109C279127C900C579BC /* ChatListTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970109B279127C900C579BC /* ChatListTopbar.swift */; };
+		0970109D279127C900C579BC /* ChatListTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970109B279127C900C579BC /* ChatListTopbar.swift */; };
+		097010AC27925EB800C579BC /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AB27925EB700C579BC /* NoDataView.swift */; };
+		097010AD27925EB800C579BC /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AB27925EB700C579BC /* NoDataView.swift */; };
+		097010B02792770800C579BC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AF2792770800C579BC /* ChatView.swift */; };
+		097010B12792770900C579BC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AF2792770800C579BC /* ChatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0970104A27910BFF00C579BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970103027910BFC00C579BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0970103B27910BFE00C579BC;
+			remoteInfo = "WhatsAppSwiftUI (iOS)";
+		};
+		0970105627910BFF00C579BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0970103027910BFC00C579BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0970104127910BFF00C579BC;
+			remoteInfo = "WhatsAppSwiftUI (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0970103527910BFC00C579BC /* WhatsAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppSwiftUIApp.swift; sourceTree = "<group>"; };
+		0970103627910BFC00C579BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0970103727910BFE00C579BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0970103C27910BFE00C579BC /* WhatsAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0970104227910BFF00C579BC /* WhatsAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0970104427910BFF00C579BC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0970104927910BFF00C579BC /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0970104D27910BFF00C579BC /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		0970104F27910BFF00C579BC /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		0970105527910BFF00C579BC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0970105927910BFF00C579BC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		0970105B27910BFF00C579BC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0970107127910E1500C579BC /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		0970107427910E2B00C579BC /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		0970107727910E3600C579BC /* ChatsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsListView.swift; sourceTree = "<group>"; };
+		0970107A27910E4300C579BC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0970107D27910E5100C579BC /* CallListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListView.swift; sourceTree = "<group>"; };
+		0970108427910F6400C579BC /* LocalizedResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedResources.swift; sourceTree = "<group>"; };
+		097010882791123100C579BC /* ChatListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListRow.swift; sourceTree = "<group>"; };
+		0970108C279112DC00C579BC /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		0970108F2791134B00C579BC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		097010922791139D00C579BC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		097010952791174200C579BC /* LastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMessageView.swift; sourceTree = "<group>"; };
+		0970109827911AA700C579BC /* ProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileIcon.swift; sourceTree = "<group>"; };
+		0970109B279127C900C579BC /* ChatListTopbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTopbar.swift; sourceTree = "<group>"; };
+		097010AB27925EB700C579BC /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		097010AF2792770800C579BC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0970103927910BFE00C579BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970103F27910BFF00C579BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970104627910BFF00C579BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970105227910BFF00C579BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0970102F27910BFC00C579BC = {
+			isa = PBXGroup;
+			children = (
+				0970103427910BFC00C579BC /* Shared */,
+				0970104327910BFF00C579BC /* macOS */,
+				0970104C27910BFF00C579BC /* Tests iOS */,
+				0970105827910BFF00C579BC /* Tests macOS */,
+				0970103D27910BFE00C579BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0970103427910BFC00C579BC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0970103527910BFC00C579BC /* WhatsAppSwiftUIApp.swift */,
+				0970108427910F6400C579BC /* LocalizedResources.swift */,
+				0970103627910BFC00C579BC /* ContentView.swift */,
+				0970108B279112CD00C579BC /* Models */,
+				097010872791122400C579BC /* Views */,
+				0970108027910E5500C579BC /* TabBarViews */,
+				0970103727910BFE00C579BC /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0970103D27910BFE00C579BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0970103C27910BFE00C579BC /* WhatsAppSwiftUI.app */,
+				0970104227910BFF00C579BC /* WhatsAppSwiftUI.app */,
+				0970104927910BFF00C579BC /* Tests iOS.xctest */,
+				0970105527910BFF00C579BC /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0970104327910BFF00C579BC /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0970104427910BFF00C579BC /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		0970104C27910BFF00C579BC /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0970104D27910BFF00C579BC /* Tests_iOS.swift */,
+				0970104F27910BFF00C579BC /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		0970105827910BFF00C579BC /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0970105927910BFF00C579BC /* Tests_macOS.swift */,
+				0970105B27910BFF00C579BC /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		0970108027910E5500C579BC /* TabBarViews */ = {
+			isa = PBXGroup;
+			children = (
+				0970107127910E1500C579BC /* StatusView.swift */,
+				0970107427910E2B00C579BC /* CameraView.swift */,
+				0970107727910E3600C579BC /* ChatsListView.swift */,
+				0970107A27910E4300C579BC /* SettingsView.swift */,
+				0970107D27910E5100C579BC /* CallListView.swift */,
+			);
+			path = TabBarViews;
+			sourceTree = "<group>";
+		};
+		097010872791122400C579BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				097010882791123100C579BC /* ChatListRow.swift */,
+				0970109827911AA700C579BC /* ProfileIcon.swift */,
+				097010952791174200C579BC /* LastMessageView.swift */,
+				0970109B279127C900C579BC /* ChatListTopbar.swift */,
+				097010AB27925EB700C579BC /* NoDataView.swift */,
+				097010AE279276FB00C579BC /* Modules */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0970108B279112CD00C579BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0970108C279112DC00C579BC /* Chat.swift */,
+				097010922791139D00C579BC /* User.swift */,
+				0970108F2791134B00C579BC /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		097010AE279276FB00C579BC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				097010AF2792770800C579BC /* ChatView.swift */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0970103B27910BFE00C579BC /* WhatsAppSwiftUI (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0970106527910BFF00C579BC /* Build configuration list for PBXNativeTarget "WhatsAppSwiftUI (iOS)" */;
+			buildPhases = (
+				0970103827910BFE00C579BC /* Sources */,
+				0970103927910BFE00C579BC /* Frameworks */,
+				0970103A27910BFE00C579BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsAppSwiftUI (iOS)";
+			productName = "WhatsAppSwiftUI (iOS)";
+			productReference = 0970103C27910BFE00C579BC /* WhatsAppSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0970104127910BFF00C579BC /* WhatsAppSwiftUI (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0970106827910BFF00C579BC /* Build configuration list for PBXNativeTarget "WhatsAppSwiftUI (macOS)" */;
+			buildPhases = (
+				0970103E27910BFF00C579BC /* Sources */,
+				0970103F27910BFF00C579BC /* Frameworks */,
+				0970104027910BFF00C579BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsAppSwiftUI (macOS)";
+			productName = "WhatsAppSwiftUI (macOS)";
+			productReference = 0970104227910BFF00C579BC /* WhatsAppSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0970104827910BFF00C579BC /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0970106B27910BFF00C579BC /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				0970104527910BFF00C579BC /* Sources */,
+				0970104627910BFF00C579BC /* Frameworks */,
+				0970104727910BFF00C579BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0970104B27910BFF00C579BC /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 0970104927910BFF00C579BC /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0970105427910BFF00C579BC /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0970106E27910BFF00C579BC /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				0970105127910BFF00C579BC /* Sources */,
+				0970105227910BFF00C579BC /* Frameworks */,
+				0970105327910BFF00C579BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0970105727910BFF00C579BC /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 0970105527910BFF00C579BC /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0970103027910BFC00C579BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0970103B27910BFE00C579BC = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					0970104127910BFF00C579BC = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					0970104827910BFF00C579BC = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 0970103B27910BFE00C579BC;
+					};
+					0970105427910BFF00C579BC = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 0970104127910BFF00C579BC;
+					};
+				};
+			};
+			buildConfigurationList = 0970103327910BFC00C579BC /* Build configuration list for PBXProject "WhatsAppSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0970102F27910BFC00C579BC;
+			productRefGroup = 0970103D27910BFE00C579BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0970103B27910BFE00C579BC /* WhatsAppSwiftUI (iOS) */,
+				0970104127910BFF00C579BC /* WhatsAppSwiftUI (macOS) */,
+				0970104827910BFF00C579BC /* Tests iOS */,
+				0970105427910BFF00C579BC /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0970103A27910BFE00C579BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0970106127910BFF00C579BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970104027910BFF00C579BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0970106227910BFF00C579BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970104727910BFF00C579BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970105327910BFF00C579BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0970103827910BFE00C579BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097010962791174200C579BC /* LastMessageView.swift in Sources */,
+				097010892791123100C579BC /* ChatListRow.swift in Sources */,
+				0970105F27910BFF00C579BC /* ContentView.swift in Sources */,
+				0970105D27910BFF00C579BC /* WhatsAppSwiftUIApp.swift in Sources */,
+				0970108D279112DC00C579BC /* Chat.swift in Sources */,
+				0970107827910E3600C579BC /* ChatsListView.swift in Sources */,
+				0970107B27910E4300C579BC /* SettingsView.swift in Sources */,
+				097010902791134B00C579BC /* Message.swift in Sources */,
+				0970109927911AA700C579BC /* ProfileIcon.swift in Sources */,
+				0970107227910E1500C579BC /* StatusView.swift in Sources */,
+				097010932791139D00C579BC /* User.swift in Sources */,
+				0970108527910F6400C579BC /* LocalizedResources.swift in Sources */,
+				097010B02792770800C579BC /* ChatView.swift in Sources */,
+				0970109C279127C900C579BC /* ChatListTopbar.swift in Sources */,
+				097010AC27925EB800C579BC /* NoDataView.swift in Sources */,
+				0970107527910E2B00C579BC /* CameraView.swift in Sources */,
+				0970107E27910E5100C579BC /* CallListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970103E27910BFF00C579BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097010972791174200C579BC /* LastMessageView.swift in Sources */,
+				0970108A2791123100C579BC /* ChatListRow.swift in Sources */,
+				0970106027910BFF00C579BC /* ContentView.swift in Sources */,
+				0970105E27910BFF00C579BC /* WhatsAppSwiftUIApp.swift in Sources */,
+				0970108E279112DC00C579BC /* Chat.swift in Sources */,
+				0970107927910E3600C579BC /* ChatsListView.swift in Sources */,
+				0970107C27910E4300C579BC /* SettingsView.swift in Sources */,
+				097010912791134B00C579BC /* Message.swift in Sources */,
+				0970109A27911AA700C579BC /* ProfileIcon.swift in Sources */,
+				0970107327910E1500C579BC /* StatusView.swift in Sources */,
+				097010942791139D00C579BC /* User.swift in Sources */,
+				0970108627910F6400C579BC /* LocalizedResources.swift in Sources */,
+				097010B12792770900C579BC /* ChatView.swift in Sources */,
+				0970109D279127C900C579BC /* ChatListTopbar.swift in Sources */,
+				097010AD27925EB800C579BC /* NoDataView.swift in Sources */,
+				0970107627910E2B00C579BC /* CameraView.swift in Sources */,
+				0970107F27910E5100C579BC /* CallListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970104527910BFF00C579BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0970105027910BFF00C579BC /* Tests_iOSLaunchTests.swift in Sources */,
+				0970104E27910BFF00C579BC /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0970105127910BFF00C579BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0970105C27910BFF00C579BC /* Tests_macOSLaunchTests.swift in Sources */,
+				0970105A27910BFF00C579BC /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0970104B27910BFF00C579BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0970103B27910BFE00C579BC /* WhatsAppSwiftUI (iOS) */;
+			targetProxy = 0970104A27910BFF00C579BC /* PBXContainerItemProxy */;
+		};
+		0970105727910BFF00C579BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0970104127910BFF00C579BC /* WhatsAppSwiftUI (macOS) */;
+			targetProxy = 0970105627910BFF00C579BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0970106327910BFF00C579BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0970106427910BFF00C579BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0970106627910BFF00C579BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurprakash.test.WhatsAppSwiftUI;
+				PRODUCT_NAME = WhatsAppSwiftUI;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0970106727910BFF00C579BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurprakash.test.WhatsAppSwiftUI;
+				PRODUCT_NAME = WhatsAppSwiftUI;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0970106927910BFF00C579BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurprakash.test.WhatsAppSwiftUI;
+				PRODUCT_NAME = WhatsAppSwiftUI;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0970106A27910BFF00C579BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurprakash.test.WhatsAppSwiftUI;
+				PRODUCT_NAME = WhatsAppSwiftUI;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0970106C27910BFF00C579BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankurprakash.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WhatsAppSwiftUI (iOS)";
+			};
+			name = Debug;
+		};
+		0970106D27910BFF00C579BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankurprakash.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WhatsAppSwiftUI (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0970106F27910BFF00C579BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankurprakash.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WhatsAppSwiftUI (macOS)";
+			};
+			name = Debug;
+		};
+		0970107027910BFF00C579BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KH7T4SB29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ankurprakash.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WhatsAppSwiftUI (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0970103327910BFC00C579BC /* Build configuration list for PBXProject "WhatsAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0970106327910BFF00C579BC /* Debug */,
+				0970106427910BFF00C579BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0970106527910BFF00C579BC /* Build configuration list for PBXNativeTarget "WhatsAppSwiftUI (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0970106627910BFF00C579BC /* Debug */,
+				0970106727910BFF00C579BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0970106827910BFF00C579BC /* Build configuration list for PBXNativeTarget "WhatsAppSwiftUI (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0970106927910BFF00C579BC /* Debug */,
+				0970106A27910BFF00C579BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0970106B27910BFF00C579BC /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0970106C27910BFF00C579BC /* Debug */,
+				0970106D27910BFF00C579BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0970106E27910BFF00C579BC /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0970106F27910BFF00C579BC /* Debug */,
+				0970107027910BFF00C579BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0970103027910BFC00C579BC /* Project object */;
+}
