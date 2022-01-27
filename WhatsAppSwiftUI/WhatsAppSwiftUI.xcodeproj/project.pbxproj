@@ -64,6 +64,34 @@
 			remoteGlobalIDString = 0970104127910BFF00C579BC;
 			remoteInfo = "WhatsAppSwiftUI (macOS)";
 		};
+		09DFF80D27A2E2E400EF5979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09DFF7EE27A2E2CD00EF5979;
+			remoteInfo = RequestSDK;
+		};
+		09DFF80F27A2E2E400EF5979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09DFF7F827A2E2CD00EF5979;
+			remoteInfo = RequestSDKTests;
+		};
+		09DFF83A27A2E30C00EF5979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09DFF81B27A2E30000EF5979;
+			remoteInfo = RequestSL;
+		};
+		09DFF83C27A2E30C00EF5979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09DFF82527A2E30000EF5979;
+			remoteInfo = RequestSLTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +122,8 @@
 		0970109B279127C900C579BC /* ChatListTopbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTopbar.swift; sourceTree = "<group>"; };
 		097010AB27925EB700C579BC /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
 		097010AF2792770800C579BC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RequestSDK.xcodeproj; path = ../RequestSDK/RequestSDK.xcodeproj; sourceTree = "<group>"; };
+		09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RequestSL.xcodeproj; path = ../RequestSL/RequestSL.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +161,8 @@
 		0970102F27910BFC00C579BC = {
 			isa = PBXGroup;
 			children = (
+				09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */,
+				09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */,
 				0970103427910BFC00C579BC /* Shared */,
 				0970104327910BFF00C579BC /* macOS */,
 				0970104C27910BFF00C579BC /* Tests iOS */,
@@ -231,6 +263,24 @@
 				097010AF2792770800C579BC /* ChatView.swift */,
 			);
 			name = Modules;
+			sourceTree = "<group>";
+		};
+		09DFF80927A2E2E400EF5979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DFF80E27A2E2E400EF5979 /* RequestSDK.framework */,
+				09DFF81027A2E2E400EF5979 /* RequestSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DFF83627A2E30C00EF5979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DFF83B27A2E30C00EF5979 /* RequestSL.framework */,
+				09DFF83D27A2E30C00EF5979 /* RequestSLTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +393,16 @@
 			mainGroup = 0970102F27910BFC00C579BC;
 			productRefGroup = 0970103D27910BFE00C579BC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 09DFF80927A2E2E400EF5979 /* Products */;
+					ProjectRef = 09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 09DFF83627A2E30C00EF5979 /* Products */;
+					ProjectRef = 09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0970103B27910BFE00C579BC /* WhatsAppSwiftUI (iOS) */,
@@ -352,6 +412,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		09DFF80E27A2E2E400EF5979 /* RequestSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RequestSDK.framework;
+			remoteRef = 09DFF80D27A2E2E400EF5979 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DFF81027A2E2E400EF5979 /* RequestSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RequestSDKTests.xctest;
+			remoteRef = 09DFF80F27A2E2E400EF5979 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DFF83B27A2E30C00EF5979 /* RequestSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RequestSL.framework;
+			remoteRef = 09DFF83A27A2E30C00EF5979 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		09DFF83D27A2E30C00EF5979 /* RequestSLTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RequestSLTests.xctest;
+			remoteRef = 09DFF83C27A2E30C00EF5979 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0970103A27910BFE00C579BC /* Resources */ = {
