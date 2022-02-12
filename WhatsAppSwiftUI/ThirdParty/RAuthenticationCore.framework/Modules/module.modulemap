@@ -1,0 +1,19 @@
+framework module RAuthenticationCore {
+  umbrella header "RAuthenticationCore.h"
+
+  export *
+  exclude header "_RAuthenticationHelpers.h"
+  exclude header "_RAuthenticationTracking.h"
+
+  explicit module Helpers {
+    header "_RAuthenticationHelpers.h"
+    export *
+  }
+
+  explicit module Tracking {
+    header "_RAuthenticationTracking.h"
+    export *
+  }
+
+  link framework "Foundation"
+}

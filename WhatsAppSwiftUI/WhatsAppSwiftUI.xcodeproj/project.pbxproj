@@ -47,6 +47,35 @@
 		097010AD27925EB800C579BC /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AB27925EB700C579BC /* NoDataView.swift */; };
 		097010B02792770800C579BC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AF2792770800C579BC /* ChatView.swift */; };
 		097010B12792770900C579BC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097010AF2792770800C579BC /* ChatView.swift */; };
+		09D7158727A3AADE00EC80BD /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 09D7158627A3AADE00EC80BD /* Swinject */; };
+		09D7158927A3AADE00EC80BD /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 09D7158827A3AADE00EC80BD /* Swinject-Dynamic */; };
+		09D7158F27A3C7FC00EC80BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7158E27A3C7FC00EC80BD /* AppDelegate.swift */; };
+		09D7159827A3C8ED00EC80BD /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159227A3C8ED00EC80BD /* AuthenticationManager.swift */; };
+		09D7159927A3C8ED00EC80BD /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159227A3C8ED00EC80BD /* AuthenticationManager.swift */; };
+		09D7159A27A3C8ED00EC80BD /* IDSDKLoggingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159327A3C8ED00EC80BD /* IDSDKLoggingEnum.swift */; };
+		09D7159B27A3C8ED00EC80BD /* IDSDKLoggingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159327A3C8ED00EC80BD /* IDSDKLoggingEnum.swift */; };
+		09D7159C27A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159427A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift */; };
+		09D7159D27A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159427A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift */; };
+		09D7159E27A3C8EE00EC80BD /* IDSDKSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159527A3C8ED00EC80BD /* IDSDKSessionManager.swift */; };
+		09D7159F27A3C8EE00EC80BD /* IDSDKSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159527A3C8ED00EC80BD /* IDSDKSessionManager.swift */; };
+		09D715A027A3C8EE00EC80BD /* IDSDKRATManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159627A3C8ED00EC80BD /* IDSDKRATManager.swift */; };
+		09D715A127A3C8EE00EC80BD /* IDSDKRATManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159627A3C8ED00EC80BD /* IDSDKRATManager.swift */; };
+		09D715A227A3C8EE00EC80BD /* SessionExpirySubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159727A3C8ED00EC80BD /* SessionExpirySubscriptionManager.swift */; };
+		09D715A327A3C8EE00EC80BD /* SessionExpirySubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7159727A3C8ED00EC80BD /* SessionExpirySubscriptionManager.swift */; };
+		09D715A527A3CDD100EC80BD /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D715A427A3CDD100EC80BD /* Log.swift */; };
+		09D715A627A3CDD100EC80BD /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D715A427A3CDD100EC80BD /* Log.swift */; };
+		09D715A927A3CE7900EC80BD /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 09D715A827A3CE7900EC80BD /* CocoaLumberjack */; };
+		09D715AB27A3CE7900EC80BD /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 09D715AA27A3CE7900EC80BD /* CocoaLumberjackSwift */; };
+		09D715AD27A3CE7900EC80BD /* CocoaLumberjackSwiftLogBackend in Frameworks */ = {isa = PBXBuildFile; productRef = 09D715AC27A3CE7900EC80BD /* CocoaLumberjackSwiftLogBackend */; };
+		09D715AF27A3D04000EC80BD /* RAuthenticationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D715AE27A3D04000EC80BD /* RAuthenticationCore.framework */; };
+		09D715B027A3D04000EC80BD /* RAuthenticationCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09D715AE27A3D04000EC80BD /* RAuthenticationCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09D715BB27A5238900EC80BD /* LogCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D715B627A5238900EC80BD /* LogCategory.swift */; };
+		09D715BC27A5238900EC80BD /* LogCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D715B627A5238900EC80BD /* LogCategory.swift */; };
+		09DFF85227A3138D00EF5979 /* RakutenOneAuthClaims in Frameworks */ = {isa = PBXBuildFile; productRef = 09DFF85127A3138D00EF5979 /* RakutenOneAuthClaims */; };
+		09DFF85427A3138D00EF5979 /* RakutenOneAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 09DFF85327A3138D00EF5979 /* RakutenOneAuthCore */; };
+		09DFF85627A3138D00EF5979 /* RakutenOneAuthDeviceCheckAssertions in Frameworks */ = {isa = PBXBuildFile; productRef = 09DFF85527A3138D00EF5979 /* RakutenOneAuthDeviceCheckAssertions */; };
+		09DFF85827A3138D00EF5979 /* RakutenOneAuthRAE in Frameworks */ = {isa = PBXBuildFile; productRef = 09DFF85727A3138D00EF5979 /* RakutenOneAuthRAE */; };
+		09DFF85A27A3138D00EF5979 /* RakutenOneAuthREM in Frameworks */ = {isa = PBXBuildFile; productRef = 09DFF85927A3138D00EF5979 /* RakutenOneAuthREM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +123,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		09D715B127A3D04000EC80BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09D715B027A3D04000EC80BD /* RAuthenticationCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0970103527910BFC00C579BC /* WhatsAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		0970103627910BFC00C579BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,8 +165,20 @@
 		0970109B279127C900C579BC /* ChatListTopbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTopbar.swift; sourceTree = "<group>"; };
 		097010AB27925EB700C579BC /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
 		097010AF2792770800C579BC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		09D7158E27A3C7FC00EC80BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09D7159227A3C8ED00EC80BD /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		09D7159327A3C8ED00EC80BD /* IDSDKLoggingEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDSDKLoggingEnum.swift; sourceTree = "<group>"; };
+		09D7159427A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDSDKAccessTokenProvider.swift; sourceTree = "<group>"; };
+		09D7159527A3C8ED00EC80BD /* IDSDKSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDSDKSessionManager.swift; sourceTree = "<group>"; };
+		09D7159627A3C8ED00EC80BD /* IDSDKRATManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDSDKRATManager.swift; sourceTree = "<group>"; };
+		09D7159727A3C8ED00EC80BD /* SessionExpirySubscriptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionExpirySubscriptionManager.swift; sourceTree = "<group>"; };
+		09D715A427A3CDD100EC80BD /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		09D715AE27A3D04000EC80BD /* RAuthenticationCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RAuthenticationCore.framework; path = ThirdParty/RAuthenticationCore.framework; sourceTree = "<group>"; };
+		09D715B627A5238900EC80BD /* LogCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCategory.swift; sourceTree = "<group>"; };
 		09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RequestSDK.xcodeproj; path = ../RequestSDK/RequestSDK.xcodeproj; sourceTree = "<group>"; };
 		09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RequestSL.xcodeproj; path = ../RequestSL/RequestSL.xcodeproj; sourceTree = "<group>"; };
+		09DFF84C27A312D000EF5979 /* id-sdk-ios-mirror */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "id-sdk-ios-mirror"; path = "../../Rakuten_Packages/id-sdk-ios-mirror"; sourceTree = "<group>"; };
+		09DFF84E27A3136000EF5979 /* IDSDKLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDSDKLoginManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +186,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DFF85627A3138D00EF5979 /* RakutenOneAuthDeviceCheckAssertions in Frameworks */,
+				09D7158927A3AADE00EC80BD /* Swinject-Dynamic in Frameworks */,
+				09D715AB27A3CE7900EC80BD /* CocoaLumberjackSwift in Frameworks */,
+				09DFF85A27A3138D00EF5979 /* RakutenOneAuthREM in Frameworks */,
+				09DFF85227A3138D00EF5979 /* RakutenOneAuthClaims in Frameworks */,
+				09D715A927A3CE7900EC80BD /* CocoaLumberjack in Frameworks */,
+				09D715AF27A3D04000EC80BD /* RAuthenticationCore.framework in Frameworks */,
+				09DFF85427A3138D00EF5979 /* RakutenOneAuthCore in Frameworks */,
+				09DFF85827A3138D00EF5979 /* RakutenOneAuthRAE in Frameworks */,
+				09D715AD27A3CE7900EC80BD /* CocoaLumberjackSwiftLogBackend in Frameworks */,
+				09D7158727A3AADE00EC80BD /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +227,9 @@
 		0970102F27910BFC00C579BC = {
 			isa = PBXGroup;
 			children = (
+				09D7159127A3C8ED00EC80BD /* IDSDK */,
+				09DFF84D27A3134900EF5979 /* RakutenLogin */,
+				09DFF84B27A312D000EF5979 /* Packages */,
 				09DFF83527A2E30C00EF5979 /* RequestSL.xcodeproj */,
 				09DFF80827A2E2E400EF5979 /* RequestSDK.xcodeproj */,
 				0970103427910BFC00C579BC /* Shared */,
@@ -168,6 +237,7 @@
 				0970104C27910BFF00C579BC /* Tests iOS */,
 				0970105827910BFF00C579BC /* Tests macOS */,
 				0970103D27910BFE00C579BC /* Products */,
+				09DFF85027A3138D00EF5979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +245,9 @@
 			isa = PBXGroup;
 			children = (
 				0970103527910BFC00C579BC /* WhatsAppSwiftUIApp.swift */,
+				09D7158E27A3C7FC00EC80BD /* AppDelegate.swift */,
+				09D715A427A3CDD100EC80BD /* Log.swift */,
+				09D715B627A5238900EC80BD /* LogCategory.swift */,
 				0970108427910F6400C579BC /* LocalizedResources.swift */,
 				0970103627910BFC00C579BC /* ContentView.swift */,
 				0970108B279112CD00C579BC /* Models */,
@@ -265,6 +338,19 @@
 			name = Modules;
 			sourceTree = "<group>";
 		};
+		09D7159127A3C8ED00EC80BD /* IDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				09D7159227A3C8ED00EC80BD /* AuthenticationManager.swift */,
+				09D7159327A3C8ED00EC80BD /* IDSDKLoggingEnum.swift */,
+				09D7159427A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift */,
+				09D7159527A3C8ED00EC80BD /* IDSDKSessionManager.swift */,
+				09D7159627A3C8ED00EC80BD /* IDSDKRATManager.swift */,
+				09D7159727A3C8ED00EC80BD /* SessionExpirySubscriptionManager.swift */,
+			);
+			path = IDSDK;
+			sourceTree = "<group>";
+		};
 		09DFF80927A2E2E400EF5979 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +369,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		09DFF84B27A312D000EF5979 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				09DFF84C27A312D000EF5979 /* id-sdk-ios-mirror */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		09DFF84D27A3134900EF5979 /* RakutenLogin */ = {
+			isa = PBXGroup;
+			children = (
+				09DFF84E27A3136000EF5979 /* IDSDKLoginManager.swift */,
+			);
+			path = RakutenLogin;
+			sourceTree = "<group>";
+		};
+		09DFF85027A3138D00EF5979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D715AE27A3D04000EC80BD /* RAuthenticationCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,12 +403,26 @@
 				0970103827910BFE00C579BC /* Sources */,
 				0970103927910BFE00C579BC /* Frameworks */,
 				0970103A27910BFE00C579BC /* Resources */,
+				09D715B127A3D04000EC80BD /* Embed Frameworks */,
+				09D715BD27A5245600EC80BD /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "WhatsAppSwiftUI (iOS)";
+			packageProductDependencies = (
+				09DFF85127A3138D00EF5979 /* RakutenOneAuthClaims */,
+				09DFF85327A3138D00EF5979 /* RakutenOneAuthCore */,
+				09DFF85527A3138D00EF5979 /* RakutenOneAuthDeviceCheckAssertions */,
+				09DFF85727A3138D00EF5979 /* RakutenOneAuthRAE */,
+				09DFF85927A3138D00EF5979 /* RakutenOneAuthREM */,
+				09D7158627A3AADE00EC80BD /* Swinject */,
+				09D7158827A3AADE00EC80BD /* Swinject-Dynamic */,
+				09D715A827A3CE7900EC80BD /* CocoaLumberjack */,
+				09D715AA27A3CE7900EC80BD /* CocoaLumberjackSwift */,
+				09D715AC27A3CE7900EC80BD /* CocoaLumberjackSwiftLogBackend */,
+			);
 			productName = "WhatsAppSwiftUI (iOS)";
 			productReference = 0970103C27910BFE00C579BC /* WhatsAppSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -391,6 +515,10 @@
 				Base,
 			);
 			mainGroup = 0970102F27910BFC00C579BC;
+			packageReferences = (
+				09D7158527A3AADE00EC80BD /* XCRemoteSwiftPackageReference "Swinject" */,
+				09D715A727A3CE7900EC80BD /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
+			);
 			productRefGroup = 0970103D27910BFE00C579BC /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -477,6 +605,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09D715BD27A5245600EC80BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\nFRAMEWORK_TMP_PATH=\"$FRAMEWORK_EXECUTABLE_PATH-tmp\"\n\ncase \"${TARGET_BUILD_DIR}\" in\n*\"iphonesimulator\")\necho \"No need to remove archs\"\n;;\n*)\nif $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"i386\") ; then\nlipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"i386\" \"$FRAMEWORK_EXECUTABLE_PATH\"\necho \"i386 architecture removed\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nfi\nif $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"x86_64\") ; then\nlipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"x86_64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\necho \"x86_64 architecture removed\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nfi\n;;\nesac\n\necho \"Completed for executable $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0970103827910BFE00C579BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -486,18 +634,27 @@
 				097010892791123100C579BC /* ChatListRow.swift in Sources */,
 				0970105F27910BFF00C579BC /* ContentView.swift in Sources */,
 				0970105D27910BFF00C579BC /* WhatsAppSwiftUIApp.swift in Sources */,
+				09D7159C27A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift in Sources */,
+				09D7159A27A3C8ED00EC80BD /* IDSDKLoggingEnum.swift in Sources */,
+				09D7159827A3C8ED00EC80BD /* AuthenticationManager.swift in Sources */,
+				09D715A527A3CDD100EC80BD /* Log.swift in Sources */,
 				0970108D279112DC00C579BC /* Chat.swift in Sources */,
 				0970107827910E3600C579BC /* ChatsListView.swift in Sources */,
 				0970107B27910E4300C579BC /* SettingsView.swift in Sources */,
+				09D715A027A3C8EE00EC80BD /* IDSDKRATManager.swift in Sources */,
 				097010902791134B00C579BC /* Message.swift in Sources */,
 				0970109927911AA700C579BC /* ProfileIcon.swift in Sources */,
 				0970107227910E1500C579BC /* StatusView.swift in Sources */,
 				097010932791139D00C579BC /* User.swift in Sources */,
 				0970108527910F6400C579BC /* LocalizedResources.swift in Sources */,
+				09D7158F27A3C7FC00EC80BD /* AppDelegate.swift in Sources */,
+				09D715BB27A5238900EC80BD /* LogCategory.swift in Sources */,
 				097010B02792770800C579BC /* ChatView.swift in Sources */,
 				0970109C279127C900C579BC /* ChatListTopbar.swift in Sources */,
 				097010AC27925EB800C579BC /* NoDataView.swift in Sources */,
 				0970107527910E2B00C579BC /* CameraView.swift in Sources */,
+				09D7159E27A3C8EE00EC80BD /* IDSDKSessionManager.swift in Sources */,
+				09D715A227A3C8EE00EC80BD /* SessionExpirySubscriptionManager.swift in Sources */,
 				0970107E27910E5100C579BC /* CallListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,15 +666,23 @@
 				097010972791174200C579BC /* LastMessageView.swift in Sources */,
 				0970108A2791123100C579BC /* ChatListRow.swift in Sources */,
 				0970106027910BFF00C579BC /* ContentView.swift in Sources */,
+				09D7159927A3C8ED00EC80BD /* AuthenticationManager.swift in Sources */,
 				0970105E27910BFF00C579BC /* WhatsAppSwiftUIApp.swift in Sources */,
 				0970108E279112DC00C579BC /* Chat.swift in Sources */,
+				09D715BC27A5238900EC80BD /* LogCategory.swift in Sources */,
 				0970107927910E3600C579BC /* ChatsListView.swift in Sources */,
 				0970107C27910E4300C579BC /* SettingsView.swift in Sources */,
 				097010912791134B00C579BC /* Message.swift in Sources */,
+				09D715A127A3C8EE00EC80BD /* IDSDKRATManager.swift in Sources */,
 				0970109A27911AA700C579BC /* ProfileIcon.swift in Sources */,
+				09D7159D27A3C8ED00EC80BD /* IDSDKAccessTokenProvider.swift in Sources */,
 				0970107327910E1500C579BC /* StatusView.swift in Sources */,
 				097010942791139D00C579BC /* User.swift in Sources */,
+				09D715A627A3CDD100EC80BD /* Log.swift in Sources */,
+				09D7159B27A3C8ED00EC80BD /* IDSDKLoggingEnum.swift in Sources */,
+				09D7159F27A3C8EE00EC80BD /* IDSDKSessionManager.swift in Sources */,
 				0970108627910F6400C579BC /* LocalizedResources.swift in Sources */,
+				09D715A327A3C8EE00EC80BD /* SessionExpirySubscriptionManager.swift in Sources */,
 				097010B12792770900C579BC /* ChatView.swift in Sources */,
 				0970109D279127C900C579BC /* ChatListTopbar.swift in Sources */,
 				097010AD27925EB800C579BC /* NoDataView.swift in Sources */,
@@ -680,6 +845,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KH7T4SB29;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -710,6 +879,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7KH7T4SB29;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -916,6 +1089,73 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09D7158527A3AADE00EC80BD /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		09D715A727A3CE7900EC80BD /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09D7158627A3AADE00EC80BD /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D7158527A3AADE00EC80BD /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		09D7158827A3AADE00EC80BD /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D7158527A3AADE00EC80BD /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+		09D715A827A3CE7900EC80BD /* CocoaLumberjack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D715A727A3CE7900EC80BD /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjack;
+		};
+		09D715AA27A3CE7900EC80BD /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D715A727A3CE7900EC80BD /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
+		};
+		09D715AC27A3CE7900EC80BD /* CocoaLumberjackSwiftLogBackend */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D715A727A3CE7900EC80BD /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwiftLogBackend;
+		};
+		09DFF85127A3138D00EF5979 /* RakutenOneAuthClaims */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RakutenOneAuthClaims;
+		};
+		09DFF85327A3138D00EF5979 /* RakutenOneAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RakutenOneAuthCore;
+		};
+		09DFF85527A3138D00EF5979 /* RakutenOneAuthDeviceCheckAssertions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RakutenOneAuthDeviceCheckAssertions;
+		};
+		09DFF85727A3138D00EF5979 /* RakutenOneAuthRAE */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RakutenOneAuthRAE;
+		};
+		09DFF85927A3138D00EF5979 /* RakutenOneAuthREM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RakutenOneAuthREM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0970103027910BFC00C579BC /* Project object */;
 }
