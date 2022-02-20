@@ -6,13 +6,17 @@
 //
 
 import SwiftUI
-
+//NavigationView is just a container.. title needs to be set in inner view
 struct ContentView: View {
     var body: some View {
-        List(DBInteractor.shared.testUsers) {
-            Text("Hello = \($0.name)")
-        }.listStyle(.plain)
-        
+        NavigationView {
+            List(DBInteractor.shared.testUsers) {
+                Text("Hello = \($0.name)")
+            }
+            .listStyle(.plain)
+            .navigationBarTitleDisplayMode(.large)
+            .navigationTitle(Text("Realm"))
+        }
     }
 }
 

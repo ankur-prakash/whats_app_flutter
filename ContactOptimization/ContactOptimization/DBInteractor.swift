@@ -15,12 +15,12 @@ public class DBInteractor {
     
     public lazy var testUsers = self.globalRealmDB.allUsers()
     
-    public init() {
-        for i in 0...99 {
-            globalRealmDB.addUser(User(name: "User \(i)", age: i))
-        }
-        print("COUNT = \(self.globalRealmDB.allUsers().count)")
-    }
+//    public init() {
+//        for i in 0...99 {
+//            globalRealmDB.addUser(User(name: "User \(i)", age: i))
+//        }
+//        print("COUNT = \(self.globalRealmDB.allUsers().count)")
+//    }
 }
 
 public extension DBInteractor {
